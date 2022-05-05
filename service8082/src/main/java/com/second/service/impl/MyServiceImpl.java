@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * @author huangsenwei
- * @Description
+ * @Description 这是我的实现类
  */
 @Service
 public class MyServiceImpl implements MyService {

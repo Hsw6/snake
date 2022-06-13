@@ -21,6 +21,7 @@ public class MyServiceImpl implements MyService {
         roles.setRoleName("999");
         roles.setRoleName("999");
         roles.setRoleName("888");
+        roles.setRoleName("888");
 
         return JSON.toJSONString(roles);
     }

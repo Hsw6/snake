@@ -29,6 +29,7 @@ public class Controller {
 //        JSON json = restTemplate.postForObject("http://127.0.0.1:8081/myController/doTry/id", null, JSON.class);
 //        return json.toJSONString();
 
+        // 远程调用别的微服务
         String result = openFeignClient.consumerGetService(id);
 
         return result;
